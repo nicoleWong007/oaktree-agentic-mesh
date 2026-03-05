@@ -47,7 +47,7 @@ class Settings(BaseSettings):
     # ── Data Sources ──────────────────────────────────────────
     fred_api_key: str = ""
     alpha_vantage_key: str = ""
-
+    tushare_api_key: str = ""  # Tushare Pro API Key (A股数据)
     # ── System ────────────────────────────────────────────────
     log_level: str = "INFO"
     max_reflection_cycles: int = 3
